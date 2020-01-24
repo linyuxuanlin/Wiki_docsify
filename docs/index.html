@@ -14,6 +14,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"
     title="Simple">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <link rel="stylesheet" href="assets/css/main.css">
 
   <!-- Alternate Stylesheets -->
@@ -137,6 +138,21 @@
       startOnLoad: false
     });
   </script>
+
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '2960d6ef467f80981889',
+      clientSecret: '8e93ccc8a3328012e76b2c191d87e8ef2322b013',
+      repo: 'Wiki-comment',
+      owner: 'linyuxuanlin',
+      admin: ['linyuxuanlin'],
+      // facebook-like distraction free mode
+      distractionFreeMode: true
+    })
+  </script>
+
 </body>
 
 </html>

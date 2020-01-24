@@ -6,7 +6,7 @@
 
 ---
 
-## TinyDVR - 小巧身材，满载动力
+
 
 
 ![1](https://github.com/linyuxuanlin/TinyDVR/raw/master/.src/raw.jpg)
