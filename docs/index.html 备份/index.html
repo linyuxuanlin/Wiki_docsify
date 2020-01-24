@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+<script src="//unpkg.com/docsify"></script>
+<script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-php.js"></script>
+
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+
+      themeable: {
+        readyTransition: true, // default
+        responsiveTables: true // default
+      },
+
+      loadSidebar: true,
+      ext: '.md',
+      //logo: '/_media/logo.png', 
+      ga: 'UA-152900803-1',
+      auto2top: true,
+      executeScript: true,
+      //loadNavbar: true,
+      //mergeNavbar: true,
+      basePath: '/',
+      coverpage: false,
+      name: 'Power\'s Wiki',
+      repo: '',
+      /*
+      search: {
+        noData: {
+          '/de-de/': 'Keine Ergebnisse!',
+          '/zh-cn/': ' 没有结果！',
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/de-de/': 'Suche',
+          '/zh-cn/': ' 搜索',
+          '/': 'Search'
+        }
+      },
+       */
+
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if (lang === "flow") {
+              (async () => {
+                await sleep(500);
+                var diagram = flowchart.parse(code);
+                diagram.drawSVG('flow');
+              })();
+              return '<div id="flow"></div>';
+            } else if (lang === "sequence") {
+              (async () => {
+                await sleep(500);
+                var diagram = Diagram.parse(code);
+                diagram.drawSVG('sequence', {
+                  theme: 'simple'
+                });
+              })();
+              return '<div id="sequence"></div>';
+            } else if (lang === "mermaid") {
+              return (
+                '<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
+              );
+            } else if (lang === "c++") {
+              lang = "cpp";
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      },
+
+
+
+    }
+  </script>
+
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-clike.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-c.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-cpp.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-cmake.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-html.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- flowchart requirements -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.2.0/raphael-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/flowchart/1.12.0/flowchart.min.js"></script>
+  <!-- sequence diagram requirments -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
+  <!-- mermaid erquirements -->
+  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script type="text/javascript">
+    mermaid.initialize({
+      startOnLoad: false
+    });
+  </script>
+
+
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- Theme: Defaults -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">
+
+<!-- Custom theme styles -->
+<style>
+  .markdown-section iframe[src*="buttons.github.io"] {
+    margin: 0;
+  }
+
+  figure.thumbnails img {
+    margin: 0.75em 0;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (min-width: 30em) {
+    figure.thumbnails:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    figure.thumbnails img {
+      float: left;
+      width: calc(50% - 0.75em);
+    }
+
+    figure.thumbnails img:nth-child(even) {
+      margin-left: 1.5em;
+    }
+
+    @supports (display: flex) {
+      figure.thumbnails {
+        display: flex;
+        align-items: center;
+      }
+
+      figure.thumbnails img {
+        flex-grow: 1;
+        width: 0;
+      }
+
+      figure.thumbnails img+img {
+        margin: 0 0 0 1.5em;
+      }
+    }
+
+  }
+</style>
+
+<script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '2960d6ef467f80981889',
+    clientSecret: '8e93ccc8a3328012e76b2c191d87e8ef2322b013',
+    repo: 'Wiki-comment',
+    owner: 'linyuxuanlin',
+    admin: ['linyuxuanlin'],
+    // facebook-like distraction free mode
+    distractionFreeMode: true
+  })
+</script>

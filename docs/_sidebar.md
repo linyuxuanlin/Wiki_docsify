@@ -1,5 +1,3 @@
-
-
   * [Introduction](README.md)
   * [Contact me](contact-me.md)
   * [Links](links.md)
