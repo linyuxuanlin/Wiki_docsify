@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
+<script>
+  window.$docsify = {
+    ga: 'UA-152900803-1'
+  }
+</script>
+<script src="//unpkg.com/docsify"></script>
+<script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
+
+
+<script src="//unpkg.com/docsify"></script>
+<script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-php.js"></script>
+
+
+
+
+
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -16,11 +36,63 @@
   <script>
     window.$docsify = {
       loadSidebar: true,
+      auto2top: true,
+      executeScript: true,
+      //loadNavbar: true,
+      //mergeNavbar: true,
+      name: 'Power\'s Wiki',
+      basePath: '/',
+      coverpage: false,
       name: '',
-      repo: ''
+      repo: '',
+      /*
+      search: {
+        noData: {
+          '/de-de/': 'Keine Ergebnisse!',
+          '/zh-cn/': ' 没有结果！',
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/de-de/': 'Suche',
+          '/zh-cn/': ' 搜索',
+          '/': 'Search'
+        }
+      },
+       */
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-c.min.js"></script>
+
+
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  window.$docsify = {
+    // your config
+    // ...
+    plugins: [
+      EditOnGithubPlugin.create(docBase, docEditBase, title)
+    ]
+  }
+</script>
