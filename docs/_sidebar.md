@@ -1,4 +1,4 @@
-* Power's Wiki
+
 
   * [Introduction](README.md)
   * [Contact me](contact-me.md)
