@@ -167,7 +167,8 @@
   <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
 
   <!-- Gitalk  -->
-  <script src="assets/js/md6.min.js"></script>
+
+  <script src="{{ site.baseurl }}/assets/js/md5.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script>
@@ -178,7 +179,7 @@
       owner: 'linyuxuanlin',
       admin: ['linyuxuanlin'],
       // facebook-like distraction free mode
-      distractionFreeMode: false,
+      distractionFreeMode: true,
       enableHotKey: true, // 提交评论快捷键(cmd/ctrl + enter) 
       title: md5(location.pathname),
       id: location.pathname
