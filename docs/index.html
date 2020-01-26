@@ -123,7 +123,7 @@
   </script>
   <script src="assets/js/main.js"></script>
   <!-- 文件名转md5，方便存放评论 -->
-  <script src="assets/js/md6.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
@@ -167,10 +167,13 @@
   <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
 
   <!-- Gitalk  -->
+  <script src="assets/js/md6.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script>
-    var gitalk = new Gitalk({
+    window.title_id = window.location.hash.match(/#(.*?)([?]|$)/) ? window.location.hash.match(/#(.*?)([?]|$)/)[1] :
+    '/';
+    const gitalk = new Gitalk({
       clientID: '2960d6ef467f80981889',
       clientSecret: '8e93ccc8a3328012e76b2c191d87e8ef2322b013',
       repo: 'Wiki-comment',
@@ -178,8 +181,8 @@
       admin: ['linyuxuanlin'],
       // facebook-like distraction free mode
       distractionFreeMode: false,
-      title: md5(location.pathname),
-      id: location.pathname
+      id: md5(window.location.hash), // 页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
+      enableHotKey: true, // 提交评论快捷键(cmd/ctrl + enter) 
 
     })
   </script>
