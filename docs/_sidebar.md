@@ -4,7 +4,7 @@
 ---
 
 
-* [**电路设计**](post/电路设计/README.md)
+* 电路设计
   * [TinyDVR - 小巧身材，满载动力](post/电路设计/TinyDVR-小巧身材，满载动力.md)
   * [ZenDriver - 高性能的电机驱动](post/电路设计/ZenDriver-高性能的电机驱动.md)
   * [AD 系列一：环境搭建](post/电路设计/AD系列一：环境搭建.md)
