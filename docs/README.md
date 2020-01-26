@@ -20,8 +20,8 @@
       owner: 'linyuxuanlin',
       admin: ['linyuxuanlin'],
       // facebook-like distraction free mode
-      distractionFreeMode: true,
-      id: "Introduction"
+      distractionFreeMode: false,
+      id: location.pathname
 
 
     })

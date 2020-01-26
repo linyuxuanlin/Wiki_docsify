@@ -20,7 +20,7 @@
       admin: ['linyuxuanlin'],
       // facebook-like distraction free mode
       distractionFreeMode: true,
-      id: "Contact me"
+      id: "Introduction"
 
 
     })
