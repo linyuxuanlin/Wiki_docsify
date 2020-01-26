@@ -171,8 +171,8 @@
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script>
-    window.title_id = window.location.hash.match(/#(.*?)([?]|$)/) ? window.location.hash.match(/#(.*?)([?]|$)/)[1] :
-    '/';
+    //window.title_id = window.location.hash.match(/#(.*?)([?]|$)/) ? window.location.hash.match(/#(.*?)([?]|$)/)[1] :
+    //'/';
     const gitalk = new Gitalk({
       clientID: '2960d6ef467f80981889',
       clientSecret: '8e93ccc8a3328012e76b2c191d87e8ef2322b013',
@@ -182,7 +182,7 @@
       // facebook-like distraction free mode
       distractionFreeMode: false,
       id: md5(window.location.hash), // 页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
-      enableHotKey: true, // 提交评论快捷键(cmd/ctrl + enter) 
+      //enableHotKey: true, // 提交评论快捷键(cmd/ctrl + enter) 
 
     })
   </script>
