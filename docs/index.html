@@ -17,6 +17,7 @@
     title="Simple">
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/foldsidebar.css">
 
 
 
@@ -122,6 +123,65 @@
         }
       },
 
+
+
+
+
+
+      plugins: [
+        function (hook) {
+          hook.doneEach(function () {
+
+            let max_cengji = 3; //默认展开层级深度
+            //添加箭头
+            $('.sidebar-nav').find('li').each(function (i, e) {
+              var el = e;
+              if (el.nextSibling && el.nextSibling.tagName == 'UL') {
+                $(el).addClass('sidebar-nav-parent-li').append(
+                  "<div class='ul-after'><div class='ul-after-sanjiao'></div></div>");
+              }
+            })
+
+            //初始时候展开层级
+
+            function find_children_li(dom, current_cengji) {
+              if (dom) {
+                current_cengji++;
+                $($(dom).find('li').each(function (i, e) {
+                  var el = e;
+                  if (el.nextSibling && el.nextSibling.tagName == 'UL') {
+                    if (current_cengji >= max_cengji) {
+                      $(el.nextSibling).hide();
+                      $(el).addClass('sidebar-nav-parent-li-shouqi');
+                    }
+                    find_children_li(el.nextSibling, current_cengji);
+                  }
+                }))
+              } else {
+                return
+              }
+            }
+
+            find_children_li($('.sidebar-nav')[0], 0);
+
+            //绑定事件
+            $('.ul-after-sanjiao').on('click', function (e) {
+              e.stopPropagation();
+              e.preventDefault();
+              var el = e.target.parentNode.parentNode.nextSibling;
+              if (el) {
+                $(el).toggle();
+                if ($(e.target.parentNode.parentNode).hasClass('sidebar-nav-parent-li-shouqi')) {
+                  $(e.target.parentNode.parentNode).removeClass('sidebar-nav-parent-li-shouqi');
+                } else {
+                  $(e.target.parentNode.parentNode).addClass('sidebar-nav-parent-li-shouqi');
+                }
+              }
+            })
+          })
+        }
+      ]
+
     };
   </script>
   <script src="assets/js/main.js"></script>
@@ -151,7 +211,7 @@
   </script>
 
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
