@@ -2,9 +2,9 @@
 
 ---
 
-`GitBook.com` 暂时没有评论插件。如果你有问题，可以通过以下方式找到我：
-（待整理）
+你可以在每篇文章下方的评论区畅所欲言（言论不会被审查），也可以通过以下的联系方式找到我：
 
-* **Telegram**：[https://t.me/linyuxuanlin](https://t.me/linyuxuanlin)
+
+* **Telegram**：[linyuxuanlin](https://t.me/linyuxuanlin)
+* **GitHub**：[linyuxuanlin](https://github.com/linyuxuanlin)
 * **WeChat**：linyuxuanlin
-* **GitHub**：linyuxuanlin
