@@ -7,10 +7,10 @@
 
 
 * [**电路设计**](post/电路设计/README.md)
+	* [TinyDVR - 小巧身材，满载动力](post/电路设计/TinyDVR-小巧身材，满载动力.md)
+  * [ZenDriver - 高性能的电机驱动](post/电路设计/ZenDriver-高性能的电机驱动.md)
   * [PCB 布线规范](post/电路设计/PCB布线规范.md)
   * [PCB 元件布局规范](post/电路设计/PCB元件布局规范.md)
-  * [TinyDVR - 小巧身材，满载动力](post/电路设计/TinyDVR-小巧身材，满载动力.md)
-  * [ZenDriver - 高性能的电机驱动](post/电路设计/ZenDriver-高性能的电机驱动.md)
   * [AD 系列一：环境搭建](post/电路设计/AD系列一：环境搭建.md)
   * [AD 系列二：基础知识](post/电路设计/AD系列二：基础知识.md)
   * [AD 系列三：原理图绘制](post/电路设计/AD系列三：原理图绘制.md)
