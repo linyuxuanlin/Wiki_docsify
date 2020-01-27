@@ -1,4 +1,4 @@
-# AD 系列四：原理图库及封装库
+# AD 系列四：PCB 绘制
 
 Altium Designer 系列教程
 
@@ -7,8 +7,6 @@ Altium Designer 系列教程
 ## 背景
 
 
-
-## 快捷键
 
 
 
