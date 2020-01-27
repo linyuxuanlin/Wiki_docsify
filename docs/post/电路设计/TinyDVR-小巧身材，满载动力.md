@@ -11,7 +11,7 @@
 
 ![](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/img/20200125191344.png)
 
-TinyDVR 是一款电机驱动套件，包含母板（Master）与子板（Slave），供电部分与驱动部分分离，相比前身 ZenDriver 大幅度缩减了体积，极大提升了可拓展性。你可以根据自己的需要，堆叠不同数量的子板，驱动 n 个电机。
+TinyDVR 是一款电机驱动套件，包含母板（Master）与子板（Slave），供电部分与驱动部分分离，相比前身 ZenDriver 大幅度缩减了体积，极大提升了可拓展性。你可以根据自己的需求，堆叠不同数量的子板，驱动 n 个电机。
 
 ## 基本参数
 
