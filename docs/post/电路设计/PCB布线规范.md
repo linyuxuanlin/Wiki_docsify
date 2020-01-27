@@ -49,6 +49,8 @@
 
 （有点解释不清，待有空补充说明
 
+覆铜 (place polygon pour) 之前要修改安全间距 design rules (clearance  10mil 左右)，并且 NET 网络连接到地 GND, 选择 Pour Over All Same Net Objectc, 还要去除死铜（remove dead copper）
+
 ### 字符大小
 
 * 最小线宽：**6** mil
