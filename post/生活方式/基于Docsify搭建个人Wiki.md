@@ -119,9 +119,29 @@
 
 ## 拓展
 ### 文档
-* [docsify 官方文档（中文）](https://docsify.js.org/#/zh-cn/)
-* [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
+* [**docsify 官方文档（中文）**](https://docsify.js.org/#/zh-cn/)：有问题多看官方文档
+* [**docsify-themeable**](https://jhildenbiddle.github.io/docsify-themeable/#/)：一个主题插件
+
+### 工具
+
+* [**docsify-cli**](https://docsify.js.org/#/zh-cn/quickstart)（推荐使用）：用于本地预览文档网站
+
+### 常用插件
+* **全文搜索**：已默认配置并开启，详见文档
+* **谷歌统计**：已默认配置并开启，需修改 `track id` ，详见文档
+* **Gitalk**：已默认配置并开启，需以下操作：
+    1. 打开链接 [**Register a new OAuth application**](https://github.com/settings/applications/new)
+    2. 填写信息。`Application name` ,`Homepage URL` 与 `Authorization callback URL` 都填写 `你的用户名.github.io`, 然后点击注册
+    3. 记下生成的 `clientID ` 和 `clientSecret`
+    4. 打开 `index.html`, 搜索并更新 `clientID ` 与 `clientSecret`, `repo` 的参数改为 `你的用户名.github.io`, `owner` 与 `admin` 内相应字符改为 `你的用户名`.（注意冒号后保留一空格，且标点符号为英文字符）
+    5. Commit & Push
+
+### 图床
+
+图片
 
 ## 参考与致谢
 
-* 
+* [docsify 官方文档（中文）](https://docsify.js.org/#/zh-cn/)
+* [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
+* [处理 Gitalk 中由于文章 URL 过长导致的 Validation Failed (422)](https://priesttomb.github.io/%E6%97%A5%E5%B8%B8/2018/02/12/%E5%A4%84%E7%90%86Gitalk%E4%B8%AD%E7%94%B1%E4%BA%8E%E6%96%87%E7%AB%A0URL%E8%BF%87%E9%95%BF%E5%AF%BC%E8%87%B4%E7%9A%84Validation-Failed(422)/)
