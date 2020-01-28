@@ -18,9 +18,11 @@
 2. 体系化归纳知识
 3. 用输出倒逼输入
 
-![学习保持率金字塔图](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/img/20200128214300.png)
+
 
 好记性不如烂笔头，知识需要归纳、总结、沉淀。而输出总是比输入难的，在这个过程中，也加深了对知识的掌握和理解。这是一个反刍，咀嚼和表达的过程。知识经历了这个过程，才能真正被我们所吸收。
+
+![学习保持率金字塔图](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/img/20200128214300.png)
 
 ### 什么是独立博客
 
