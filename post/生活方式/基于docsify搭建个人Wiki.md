@@ -138,12 +138,12 @@
 
 ### 图床
 
-网站图片的解决方案参考 [Github+jsDelivr+PicGo 打造稳定快速、高效免费图床](https://www.itrhx.com/2019/08/01/A27-image-hosting/).
+网站图片的解决方案参考 [**Github+jsDelivr+PicGo 打造稳定快速、高效免费图床**](https://www.itrhx.com/2019/08/01/A27-image-hosting/).
 
-整个网站都白嫖 GitHub 
 
 ## 参考与致谢
 
 * [docsify 官方文档（中文）](https://docsify.js.org/#/zh-cn/)
 * [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
 * [处理 Gitalk 中由于文章 URL 过长导致的 Validation Failed (422)](https://priesttomb.github.io/%E6%97%A5%E5%B8%B8/2018/02/12/%E5%A4%84%E7%90%86Gitalk%E4%B8%AD%E7%94%B1%E4%BA%8E%E6%96%87%E7%AB%A0URL%E8%BF%87%E9%95%BF%E5%AF%BC%E8%87%B4%E7%9A%84Validation-Failed(422)/)
+* [Github+jsDelivr+PicGo 打造稳定快速、高效免费图床](https://www.itrhx.com/2019/08/01/A27-image-hosting/)
