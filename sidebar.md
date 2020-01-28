@@ -53,7 +53,7 @@
 ---
 
 * [**生活方式**](post/生活方式/README.md)
-  * [基于 docsify 搭建个人 Wiki](post/生活方式/基于docsify搭建个人Wiki1.md)
+  * [基于 docsify 搭建个人 Wiki](post/生活方式/基于docsify搭建个人Wiki.md)
   * [博客转至 GitBook](post/生活方式/博客转至GitBook.md)
   * [英语六级 - 备考](post/生活方式/英语六级-备考.md)
   * [浅谈 Bitcron 博客平台](post/生活方式/浅谈Bitcron博客平台.md)
