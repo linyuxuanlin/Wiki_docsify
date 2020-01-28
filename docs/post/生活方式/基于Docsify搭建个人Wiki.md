@@ -91,12 +91,15 @@
 2. 在 GitHub 上注册一个账户：https://github.com/
 3. 直接搬走我网站的样式
    1. 打开 https://github.com/linyuxuanlin/Wiki 
-   2. 点击绿色按钮 `Clone or download`, 然后选择 `Open in Desktop`
-   3. 在 GitHub Desktop 弹出的窗口内更改 `Local Path`，选择你想保存的路径
+   2. 点击右上角 `Fork` 按钮，待页面刷新后继续
+   3. 点击右上角小齿轮图标的 `Settings` 按钮，将 `Repository name` 从 `Wiki` 改为 `你的 GitHub 用户名.github.io`（如果忘了刚刚设置的用户名，可以看看页面左上角），然后点击 `Rename` 按钮，待页面刷新后继续
+   4. 点击绿色按钮 `Clone or download`, 然后选择 `Open in Desktop`
+   5. 在 GitHub Desktop 弹出的窗口内更改 `Local Path`，选择你想保存的路径，点击确认
 4. 打开 `Wiki/docs/index.html`（找个适合自己的编辑器例如 VScode），利用 `Ctrl + H` 搜索替换：
-   1. 搜索 `Power's Wiki`（包括下方的 `Power\'s Wiki`），改为你自己网站的名字
+   1. 搜索 `Power's Wiki`（包括下方的 `Power\'s Wiki`），改为你自己网站的名字（注意如果 Wiki 标题 `'s` ，需要加转义字符 `\'s`）
    2. 其他设置项的更改稍后再说
-5. 打开 GitHub Desktop, 你先康康提示什么然后我再继续写。。。
+5. 保存文档，打开 GitHub Desktop, 可以看到有修改记录。我们在下方的 `Summary` 一栏里填写本次提交的摘要（填什么都行），点击最下方蓝色按钮 `Commit to master`，然后点击右边蓝色按钮 `Push origin`，等待提交完成
+6. 我们回到刚才打开的网页，
 
 
 
