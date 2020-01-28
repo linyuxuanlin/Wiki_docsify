@@ -85,7 +85,7 @@
 ## 快速部署
 
 如果你不想折腾，只想好好写文章，以下是捷径：
-那直接搬走我网站的样式即可。
+
 
 1. 下载软件：[**GitHub Desktop**](https://desktop.github.com/) 
 2. 在 GitHub 上注册一个账户：https://github.com/
