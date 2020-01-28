@@ -41,9 +41,7 @@
 
 PCB 工程已开源至 GitHub：[https://github.com/linyuxuanlin/ZenDriver](https://github.com/linyuxuanlin/ZenDriver)
 
-## 花絮
 
-经历了五个大版本、三十多个小版本的迭代，印坏了几十块电路板，终于出来了第一个 Release 版本。在此感谢彬哥的指点，以及 Bobi 和柔柔的悉心帮助，这个项目使我受益良多。
 
 ![](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/img/20200125192734.png)
 

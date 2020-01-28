@@ -8,42 +8,41 @@ Altium Designer 系列教程
 
 配置完软件运行环境，在开始画板子之前，我们务必先熟悉一些 Altium Designer 及电路设计的基本知识。
 
-## 安装库文件
+## 库文件安装
 
-Altium Designer 的库相当于把每个分立元件（如电阻、电容等）的原理图/PCB/3D模型封装起来，需要的时候直接拿来用。如果不想每个元件都自己画，可以直接用厂商提供的库。
+库相当于把每个分立元件（如电阻、电容等）的原理图 / PCB 封装起来，方便直接调用。不一定每个元器件的原理图库 / 封装库都必须自己画，但 **整理自己的库是必须的**。假想你的项目内每个元器件用的都是别人的（且不同的库有自己的规则），那么越往后你将越来越受制于人。拥有自己的库，这不仅方便迁移、提高效率，也有利于知识的体系化。适合自己的规则与体系，从时间轴上看，知识将呈指数型增长。虽然刚开始建立体系时曲线增长缓慢，但到了后期，将不会有重复性的工作，那时候你需要做的，只是学习新知识，并将其归纳到体系中了。
 
-### **推荐比较齐全的库**
+温馨提示：自己的项目所需的所有元器件，尽量全部从自己整理的原理图库 / 封装库中提取。
 
-* **JLCSMT\_LIB**：嘉立创提供的标准集成库，包含嘉立创可以 SMT 贴片的所有元件，直接用这个集成库，打板/SMT 的时候兼容性会比较好；
-* **Miscellaneous Devices**（内置）：自带的元器件集成库，比较全但打板时兼容性一般；
-* **Miscellaneous Connectors**（内置）：自带的接插件集成库；
-* **Hare\_Library**：彬哥自己画的原理图库和封装库，涵盖队内硬件所需的大部分元器件；
+### 可参考的库
 
-以上库文件已共享至 [**我的坚果云**](https://www.jianguoyun.com/p/DX2d84cQ-OOjBxj0kPwB) ，请自行下载。
+* [**Power_Lib_Altium**](https://github.com/linyuxuanlin/Power_Lib_Altium)：我自己整理的库。目前尚处于前中期阶段，封装库齐全，原理图库仅包含我的项目所需要的元器件型号。将不断更新。
+* [**AltiumDesigner_PcbLibrary**](https://github.com/KitSprout/AltiumDesigner_PcbLibrary)：一个较为齐全的库。
+* [**My_PCB_Library_Github**](https://github.com/Samwuzhitao/My_PCB_Library_Github)：挺齐全的一个库，还包含一些单片机方案板。
+* [**JLCSMT\_LIB**](https://gitee.com/JLC_SMT/JLCSMT_LIB)：嘉立创提供的标准集成库，包含嘉立创可以 SMT 贴片的所有元件，直接用这个集成库，打板 / SMT 的时候兼容性会比较好。
+* [**Hare\_Library**](https://www.jianguoyun.com/p/DX2d84cQ-OOjBxj0kPwB#dir=%2FHare_Library::mode=0)：彬哥整理的原理图库 / 封装库，涵盖队内硬件所需的大部分元器件。
 
-### **不常见的元器件**
+如何安装库文件：参考 [**Altium Designer 安装库文件**](unlist/AltiumDesigner安装库文件.md)
 
-对于一些不常见的元器件，可以上 [**SnapEDA**](https://www.snapeda.com/) 查找，基本上都可以找到。
 
-### **安装库的方法**
+### 不常见的元器件
 
-1. 将库文件全部 **拷贝** 至软件对应的 **Shared\Library** 文件夹下；
-2. 打开 Altium Designer ，在右侧面板点击 **Components** 页面，点击右上角 **三条杠** 标志，点击 **File-based Library Preferences** 选项，点击 **已安装** 页面，点击 **安装** 按钮，安装对应的库文件；
-3. 几种特殊情况：
-   * 嘉立创集成库的路径位于 **JLCSMT\_LIB\Project Outputs for Miscellaneous Devices LC** 文件夹内；
-   * 若第三方库文件非 **集成库（.IntLib）**，而是 **原理图库（SchLib）** 或 **封装库（PcbLib）** 的形式，则需 **同时安装** 以上两个文件。此时需要在安装库文件时弹出的路径选择窗口右侧点击下拉框切换 **All Files\(\*.\*\)** 通配符，否则只能看到 **.Intlib** 格式的文件。
-   * 从 **SnapEDA** 下载的元器件：
-     1. 先在 **Shared\Library** 路径下创建 **SnapEDA** 文件夹（便于后期整理）；
-     2. 将下载的 **.lia** 文件解压并拷贝至 **SnapEDA** 文件夹内；
-     3. 将 **SnapEDA** 文件夹内的 **.lia** 文件 **直接拖进** Altium Designer **左侧** **Projects** 面板，自动弹出 **P-CAD 导入向导** 页面，一直点 **Next** ，直到看见 **Current Layer Mappings** 页面，执行以下操作：
-        * 将 **Layer '10'** 右键选择为 **Mechanical Layer 1** ；
-        * 将 **Layer '20'** 右键选择为 **Mechanical Layer 13** ；
-        * 将 **Layer '21'** 右键选择为 **Mechanical Layer 15** ；
-     4. 一直点 **Next** 直至完成。
+以上提供的库，已经涵盖市面上 95% 以上的元器件型号了。如果真的找不到所需元器件，可以尝试以下方法：
+
+AD 插件：
+* [**Altium Library Loader**](https://www.samacsys.com/altium-designer-library-instructions/)：这个用起来真的超级方便（相对以下方法）
+
+搜索引擎：
+* [**芯片之家**](http://www.chiphome.com/)
+* [**SnapEDA**](https://www.snapeda.com/)
+
+SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](unlist/从SnapEDA导入库文件.md)
 
 
 
-## 常用快捷键
+
+
+## 快捷键
 
 于 Altium Designer 而言，熟练掌握常用的快捷键，可以很大程度提高效率。Altium Designer 的系统快捷键都是根据菜单下命令中有下划线的字母组合而成，例如 **Place-Line** 的快捷键为 **P-L** （先按 P 再按 L）
 
@@ -105,54 +104,43 @@ Altium Designer 的库相当于把每个分立元件（如电阻、电容等）�
 
 ## 流程及规范
 
-以下为一块电路板从无到有的简略流程，遵守一定的规范：
+一块电路板从无到有设计出来，基本流程如下：
 
 1. 初始化 
    1.  新建项目
    2. 在项目内创建原理图和 PCB 文件 
-   3. （创建原理图库和封装库）
-2. 画原理图
+2. 绘制原理图
    1. 完成后确保编译通过
-3. 画 PCB
+3. 绘制 PCB
    1. 从原理图导入变更
    2. 隐藏元件 Designator 标识
       1. 打开右侧 **Properties** 面板
       2. 点击 **Designator** 旁边的 **眼睛** 标志，即可关闭
-   3. 排布元件
-      * 尽量从大的元件开始
-      * 尽量全部放顶层，焊接方便
-      * 电容靠近电源管脚放置，且容值越小的越靠近电源
-   4. 画板子形状
+   3. 绘制板形
       * 切换 90°/45° 走线（**Shift+Space**）
-      * 圆角矩形
-        * 圆角直径 4mm
-        * 以所画形状定义板子（**DSD**）
-      * 设置边框线为机械层 1
+      * 以所画形状定义板子（**DSD**）
+      * **设置板框属性为机械层 1**
       * 固定孔
-        * 内 **3.1** mm、外 **4** mm
+        * M3 螺孔：内 **3.1** mm、外 **4** mm
+   4. 排布元件
+      * 参考 [**PCB 元件布局规范**](post/电路设计/PCB元件布局规范.md)
    5. 布线
-      * 设置自动布线规则（见操作方法文档）
-        * 电源线（VCC）：**30** mil
-        * 地：不做设置，直接 **将敷铜属性设置为地**
-        * 普通线：**11** mil
-        * 过孔：内 **0.3** mm，外 **0.6** mm
-      * 自动布线
-      * 过孔盖油（见操作方法文档）
-   6. 字体标识（引脚标识与版权）
+      * 设置布线规则
+        * 参考 [**PCB 布线规范**](post/电路设计/PCB布线规范.md)
+      * **不要开启自动布线！**
+      * **开启泪滴功能**
+   6. 字体标识（引脚标识 / 版权 / 迷惑性文字）
       * 放置于丝印层（顶层 / 底层）
       * 放底层要先镜像
    7. 敷铜（**PG**）
-      * 较复杂的芯片不敷铜
-      * 设置属性为 **GND**
-        * 点击敷铜 - Properties - Net - Net - 选择 GND
-      * 切除死铜
+      * 参考 [**PCB 布线规范**](post/电路设计/PCB布线规范.md)
 4. 打板
    1. 保存项目
-   2. 将 **.pcb** 文件压缩
+   2. 将 **.pcb** 文件压缩（这样做似乎不太对，可以的话导出 Gerber）
    3. 上传至 **嘉立创下单助手**
-   4. \(可选 SMT\)
+   4. (可选 SMT)
 
-## 其他知识点
+## 其他知识
 
 ### 元件属性
 
@@ -172,7 +160,7 @@ Altium Designer 的库相当于把每个分立元件（如电阻、电容等）�
 
 ### Logo 添加
 
-参考文章 [Logo 添加](https://seujxh.wordpress.com/2018/10/03/logo%E6%B7%BB%E5%8A%A0/) 。
+参考文章 [**Logo 添加**](https://seujxh.wordpress.com/2018/10/03/logo%E6%B7%BB%E5%8A%A0/) 。
 
 ## 总结
 
