@@ -138,7 +138,9 @@
 
 ### 图床
 
-图片
+网站图片的解决方案参考 [Github+jsDelivr+PicGo 打造稳定快速、高效免费图床](https://www.itrhx.com/2019/08/01/A27-image-hosting/).
+
+整个网站都白嫖 GitHub 
 
 ## 参考与致谢
 
