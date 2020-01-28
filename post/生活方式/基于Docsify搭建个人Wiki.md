@@ -1,11 +1,11 @@
-# 基于 Docsify 搭建个人 Wiki
+# 基于 docsify 搭建个人 Wiki
 
 ---
 
 
 ## 背景
 
-笔者一直都有撰写博客的传统，自 2015 年至今，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客平台, 甚至尝试在 GitHub issue 上直接撰写文章，效果始终不理想。最近发现的 Docsify 博客工具，配合笔者发现的一些非常规操作,（似乎）找到了博客撰写的最终归宿。
+笔者一直都有撰写博客的传统，自 2015 年至今，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客平台, 甚至尝试在 GitHub issue 上直接撰写文章，效果始终不理想。最近发现的 docsify 博客工具，配合笔者发现的一些非常规操作,（似乎）找到了博客撰写的最终归宿。
 
 
 ## 为什么你需要一个 Wiki
@@ -67,7 +67,7 @@
 与其临渊羡鱼，不如退而结网。深耕一隅，而定天下（逃
 
 
-## Docsify 的优势
+## docsify 的优势
 
 
 * 不会将 `.md` 转成 `.html` 文件，所有转换工作都是在运行时进行
@@ -76,7 +76,7 @@
 * 丰富的插件及 API 支持
 * 可部署在服务器上，也可托管于 GitHub / Coding Pages
 
-选择 Docsify，笔者主要是看中这几点：
+选择 docsify，笔者主要是看中这几点：
 1. 可以搭建 Wiki 形式的网站
 2. 可托管在 GitHub Pages, 免费且数据永不丢失
 3. 主题样式清爽
@@ -117,6 +117,10 @@
 2. 在 `siderbar.md` 内更新这篇文章的路径
 3. 在 GitHub Desktop 软件内进行 Commit & Push 操作，文章更新完成
 
+## 拓展
+### 文档
+* [docsify 官方文档（中文）](https://docsify.js.org/#/zh-cn/)
+* [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
 
 ## 参考与致谢
 
