@@ -91,7 +91,11 @@
 2. 在 GitHub 上注册一个账户：https://github.com/
 3. 直接搬走我网站的样式
    1. 打开 https://github.com/linyuxuanlin/Wiki 
-   2. 点击绿色按钮 `Clone or download`, 然后选择 ` Open in Desktop`
+   2. 点击绿色按钮 `Clone or download`, 然后选择 `Open in Desktop`
+   3. 在 GitHub Desktop 弹出的窗口内更改 `Local Path`，选择你想保存的路径
+4. 修改一些配置
+   1. 打开 Wiki/docs/index.html（找个适合自己的编辑器例如 VScode），利用 `Ctrl + F` 搜索：
+      1. 
 
 
 
