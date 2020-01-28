@@ -1,4 +1,11 @@
-# Wiki
- My Personal Wiki
+# Power's Wiki
 
-https://wiki-power.com/
+---
+
+新年快乐！
+
+这儿是我的 Wiki ，记录着个人所学知识，并将其结构化。 
+
+对知识的记录与归纳，以前我用的是 Blog 的形式。后来逐渐发现，博客记录下来的知识很零散。于是，我改用 Wiki 的形式，用一种分类结构化、系统化的方法来管理我的知识。
+
+本 Wiki 基于 `Docsify` ，托管于 `Github Pages` ，安全，省心。注重文章内容的质量，比折腾一个写作平台重要多了。
