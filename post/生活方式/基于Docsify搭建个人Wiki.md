@@ -82,11 +82,20 @@
 3. 主题样式清爽
 4. 丰富且实用的插件
 
+## 准备工作
+
+工欲善其事，必先利其器。
+本篇教程虽然面向零基础，但有些技能还是需要读者具备的：
+1. 英语不能太差
+2. Markdown 语法：我们用它来写文章，它有什么优势以及怎么用，请自行了解
+3. 善用搜索引擎（最好是 Google）：难度你愿意接受百度上少得可怜的中文结果，并接受广告轰炸吗？
+4. Git / GitHub 基本使用：下文将会普及
+5. （非必须）前端语言（HTML / CSS / Javascript），基本的命令行操作
+
+
 ## 快速部署
 
 如果你不想折腾，只想好好写文章，那么以下是捷径：
-
-
 1. 下载软件：[**GitHub Desktop**](https://desktop.github.com/) 
 2. 在 GitHub 上注册一个账户：https://github.com/
 3. 直接搬走我网站的样式
@@ -95,12 +104,18 @@
    3. 点击右上角小齿轮图标的 `Settings` 按钮，将 `Repository name` 从 `Wiki` 改为 `你的 GitHub 用户名.github.io`（如果忘了刚刚设置的用户名，可以看看页面左上角），然后点击 `Rename` 按钮，待页面刷新后继续
    4. 点击绿色按钮 `Clone or download`, 然后选择 `Open in Desktop`
    5. 在 GitHub Desktop 弹出的窗口内更改 `Local Path`，选择你想保存的路径，点击确认
-4. 打开 `Wiki/docs/index.html`（找个适合自己的编辑器例如 VScode），利用 `Ctrl + H` 搜索替换：
+4. 打开文件 `你保存的路径/index.html`（找个适合自己的编辑器例如 VScode），利用 `Ctrl + H` 搜索替换：
    1. 搜索 `Power's Wiki`（包括下方的 `Power\'s Wiki`），改为你自己网站的名字（注意如果 Wiki 标题 `'s` ，需要加转义字符 `\'s`）
-   2. 其他设置项的更改稍后再说
+   2. 删除 `你保存的路径/CNAME` 文件
+   3. 其他设置项的更改稍后再说
 5. 保存文档，打开 GitHub Desktop, 可以看到有修改记录。我们在下方的 `Summary` 一栏里填写本次提交的摘要（填什么都行），点击最下方蓝色按钮 `Commit to master`，然后点击右边蓝色按钮 `Push origin`，等待提交完成
-6. 我们回到刚才打开的网页，
+6. 我们回到刚才打开的网页，点击右上角小齿轮图标的 `Settings` 按钮，滚动页面找到 `GitHub Pages` 栏目，如果没问题的话，可以看到提示 `Your site is ready to be published at https://xxx.github.io/.`，点击链接就可以访问你的网站了
 
+## 写文章的流程
+
+1. 直接在相应目录创建 `文章标题.md`（参照我网站的目录结构），用 Markdown 写作
+2. 在 `siderbar.md` 内更新这篇文章的路径
+3. 在 GitHub Desktop 软件内进行 Commit & Push 操作，文章更新完成
 
 
 ## 参考与致谢
