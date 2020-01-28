@@ -5,7 +5,7 @@
 
 ## 背景
 
-笔者一直都有撰写博客的传统，自 2015 年至今，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客平台, 甚至尝试在 GitHub issue 上直接撰写文章，效果始终不理想。最近发现的 Docsify 博客工具，配合笔者发现的一些非常规操作，（似乎）找到了博客撰写的最终归宿。
+笔者一直都有撰写博客的传统，自 2015 年至今，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客平台, 甚至尝试在 GitHub issue 上直接撰写文章，效果始终不理想。最近发现的 Docsify 博客工具，配合笔者发现的一些非常规操作,（似乎）找到了博客撰写的最终归宿。
 
 
 ## 为什么你需要一个 Wiki
@@ -96,7 +96,7 @@
 4. 打开 Wiki/docs/index.html（找个适合自己的编辑器例如 VScode），利用 `Ctrl + H` 搜索替换：
    1. 搜索 `Power's Wiki`（包括下方的 `Power\'s Wiki`），改为你自己网站的名字
    2. 其他可更改的设置项在下文进行说明
-5. 打开 GitHub Desktop, 你先康康提示什么然后我再写
+5. 打开 GitHub Desktop, 你先康康提示什么然后我再写。。。
 
 
 
