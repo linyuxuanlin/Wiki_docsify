@@ -93,9 +93,10 @@
    1. 打开 https://github.com/linyuxuanlin/Wiki 
    2. 点击绿色按钮 `Clone or download`, 然后选择 `Open in Desktop`
    3. 在 GitHub Desktop 弹出的窗口内更改 `Local Path`，选择你想保存的路径
-4. 修改一些配置
-   1. 打开 Wiki/docs/index.html（找个适合自己的编辑器例如 VScode），利用 `Ctrl + F` 搜索：
-      1. 
+4. 打开 Wiki/docs/index.html（找个适合自己的编辑器例如 VScode），利用 `Ctrl + H` 搜索替换：
+   1. 搜索 `Power's Wiki`（包括下方的 `Power\'s Wiki`），改为你自己网站的名字
+   2. 其他可更改的设置项在下文进行说明
+5. 打开 GitHub Desktop, 你先康康提示什么然后我再写
 
 
 
