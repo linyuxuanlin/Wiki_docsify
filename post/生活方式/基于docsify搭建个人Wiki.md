@@ -5,7 +5,7 @@
 
 ## 背景
 
-笔者一直都有撰写博客的传统，自 2015 年至今，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客平台, 甚至尝试在 GitHub issue 上直接撰写文章，效果始终不理想。最近发现的 docsify 博客工具，配合笔者发现的一些非常规操作,（似乎）找到了博客撰写的最终归宿。
+笔者一直都有撰写博客的传统，自 2015 年至今，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客平台, 甚至尝试在 GitHub issue 上直接撰写文章，效果始终不理想。最近发现的 docsify 博客工具，配合笔者发现的一些非常规操作，似乎找到了博客撰写的最终归宿。
 
 
 ## 为什么你需要一个 Wiki
