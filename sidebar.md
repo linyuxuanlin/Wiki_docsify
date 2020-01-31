@@ -53,6 +53,7 @@
 ---
 
 * [**生活方式**](post/生活方式/README.md)
+  * [文章排版规范](post/生活方式/文章排版规范.md)
   * [基于 docsify 搭建个人 Wiki](post/生活方式/基于docsify搭建个人Wiki.md)
   * [博客转至 GitBook](post/生活方式/博客转至GitBook.md)
   * [英语六级 - 备考](post/生活方式/英语六级-备考.md)
@@ -62,7 +63,6 @@
   * [构建知识管理系统](post/生活方式/构建知识管理系统.md)
   * [用 Graphviz 绘制关系图](post/生活方式/用Graphviz绘制关系图.md)
   * [回归博客](post/生活方式/回归博客.md)
-  * [我的排版标准](post/生活方式/我的排版标准.md)
   * [定制 Sublime Text 3](post/生活方式/定制SublimeText3.md)
   * [定制 VS Code](post/生活方式/定制VSCode.md)
   * [华广爬楼指北](post/生活方式/华广爬楼指北.md)
