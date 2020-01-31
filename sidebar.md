@@ -6,17 +6,18 @@
 
 
 
-* [**电路设计**](post/电路设计/README.md)
+* [**电路设计**](https://wiki-power.com/#/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/TinyDVR-%E5%B0%8F%E5%B7%A7%E8%BA%AB%E6%9D%90%EF%BC%8C%E6%BB%A1%E8%BD%BD%E5%8A%A8%E5%8A%9B)
   * [TinyDVR - 小巧身材，满载动力](post/电路设计/TinyDVR-小巧身材，满载动力.md)
   * [ZenDriver - 高性能的电机驱动](post/电路设计/ZenDriver-高性能的电机驱动.md)
   * [PCB 布线规范](post/电路设计/PCB布线规范.md)
   * [PCB 元件布局规范](post/电路设计/PCB元件布局规范.md)
+  * [AD 小技巧整理](post/电路设计/AD小技巧整理.md)
   * [AD 入门系列一：环境搭建](post/电路设计/AD入门系列一：环境搭建.md)
   * [AD 入门系列二：基础知识](post/电路设计/AD入门系列二：基础知识.md)
   * [AD 入门系列三：原理图绘制](post/电路设计/AD入门系列三：原理图绘制.md)
   * [AD 入门系列四：PCB 绘制](post/电路设计/AD入门系列四：PCB绘制.md)
   * [AD 入门系列五：库文件绘制](post/电路设计/AD入门系列五：库文件绘制.md)
-  * [AD 小技巧整理](post/电路设计/AD小技巧整理.md)
+  * [自制 CMSIS-DAP](post/电路设计/自制CMSIS-DAP.md)
   * [PCB 名片设计](post/电路设计/PCB名片设计.md)
   * [焊接比赛：培训及总结](post/电路设计/焊接比赛：培训及总结.md)
   * [有用的资料收集](post/电路设计/有用的资料收集.md)
