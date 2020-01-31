@@ -1,4 +1,4 @@
-# AD 系列二：基础知识
+# AD 入门系列二：基础知识
 
 Altium Designer 系列教程
 

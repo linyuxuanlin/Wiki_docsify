@@ -1,4 +1,4 @@
-# AD 系列三：原理图绘制
+# AD 入门系列三：原理图绘制
 
 Altium Designer 系列教程
 
