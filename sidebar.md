@@ -6,7 +6,7 @@
 
 
 
-* [**电路设计**](https://wiki-power.com/#/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/TinyDVR-%E5%B0%8F%E5%B7%A7%E8%BA%AB%E6%9D%90%EF%BC%8C%E6%BB%A1%E8%BD%BD%E5%8A%A8%E5%8A%9B)
+* [**电路设计**](post/电路设计/README.md)
   * [TinyDVR - 小巧身材，满载动力](post/电路设计/TinyDVR-小巧身材，满载动力.md)
   * [ZenDriver - 高性能的电机驱动](post/电路设计/ZenDriver-高性能的电机驱动.md)
   * [PCB 布线规范](post/电路设计/PCB布线规范.md)
