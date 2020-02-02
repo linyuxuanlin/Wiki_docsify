@@ -35,6 +35,7 @@ AD 插件：
 搜索引擎：
 * [**芯片之家**](http://www.chiphome.com/)
 * [**SnapEDA**](https://www.snapeda.com/)
+* [**Ultra Librarian**](https://www.ultralibrarian.com/)
 
 SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](unlist/从SnapEDA导入库文件.md)
 
