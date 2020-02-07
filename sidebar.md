@@ -55,6 +55,7 @@
 ---
 
 * [**生活方式**](post/生活方式/README.md)
+  * [如何保存易逝的文字](post/生活方式/如何保存易逝的文字)
   * [文章排版规范](post/生活方式/文章排版规范.md)
   * [基于 docsify 搭建个人 Wiki](post/生活方式/基于docsify搭建个人Wiki.md)
   * [博客转至 GitBook](post/生活方式/博客转至GitBook.md)
