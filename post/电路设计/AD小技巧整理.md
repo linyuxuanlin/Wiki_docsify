@@ -34,7 +34,7 @@
 **原因**：如果用直接导入图片的方式，创建的 Logo 无法自由调整大小。  
 **方法**：使用字库软件 Font Creator, 在 [GitHub](https://github.com/linyuxuanlin/Modularity_of_Functional_Circuit/tree/master/%E4%B8%93%E7%94%A8%E5%AD%97%E4%BD%93) 下载我的字库作为模板，定制自己的专属字库。字库制作完成后，安装 .ttf 文件，即可在 Altium 内用相应字符调出 Logo 。
 
-字符对应 Logo 如下图：
+字符对应 Logo 如下图：  
 ![](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/img/20200207200606.png)
 
 
