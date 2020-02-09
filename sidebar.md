@@ -21,7 +21,7 @@
   * [自制 CMSIS-DAP](post/电路设计/自制CMSIS-DAP.md)
   * [PCB 名片设计](post/电路设计/PCB名片设计.md)
   * [焊接比赛：培训及总结](post/电路设计/焊接比赛：培训及总结.md)
-  * [电路设计资料收集](post/电路设计/电路设计资料收集.md)
+  * [电路设计资源共享](post/电路设计/电路设计资源共享.md)
 * [**无人机**](post/无人机/README.md)
   * [N3 参数调试](post/无人机/N3参数调试.md)
 * [**Arduino**](post/Arduino/README.md)
