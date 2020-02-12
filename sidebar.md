@@ -2,6 +2,11 @@
 * [Contact me](Contactme.md)
 
 ---
+
+* [个人项目看板](https://trello.com/b/0QeKClyr)
+* [互联网收藏夹](https://www.yuque.com/collection-power)
+
+---
  
 
 * [**电路设计**](post/电路设计/README.md)
@@ -128,6 +133,10 @@
   * [创业](post/观点/创业.md)
 
 ---
+
+
+
+
 
 * **友链**
 * [![](https://icongr.am/feather/code.svg?size=16&color=808080)BUG-Hunter](https://bug-hunter.baklib.com/)
