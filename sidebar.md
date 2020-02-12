@@ -1,10 +1,7 @@
 * [Introduction](README.md)
 * [Contact me](Contactme.md)
-
----
-
-* [个人项目看板](https://trello.com/b/0QeKClyr)
-* [互联网收藏夹](https://www.yuque.com/collection-power)
+* [Task board](https://trello.com/b/0QeKClyr)
+* [Collection](https://www.yuque.com/collection-power)
 
 ---
  
