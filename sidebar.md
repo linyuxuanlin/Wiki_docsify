@@ -61,7 +61,7 @@
   * [浅谈 Bitcron 博客平台](post/效率/浅谈Bitcron博客平台.md)
   * [RSS - 高效率的阅读方式](post/效率/RSS-高效率的阅读方式.md)
   * [把回忆放心交给 Google Photos](post/效率/把回忆放心交给GooglePhotos.md)
-  * [构建知识管理系统](post/效率/构建知识管理系统.md
+  * [构建知识管理系统](post/效率/构建知识管理系统.md)
   * [回归博客](post/效率/回归博客.md)
   * [定制 Sublime Text 3](post/效率/定制SublimeText3.md)
   * [定制 VS Code](post/效率/定制VSCode.md)
