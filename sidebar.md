@@ -66,7 +66,7 @@
   * [定制 Sublime Text 3](post/效率/定制SublimeText3.md)
   * [定制 VS Code](post/效率/定制VSCode.md)
 * **音乐**
-  * [哥德堡变奏曲-钢琴]()
+  * [哥德堡变奏曲-钢琴](post/音乐/哥德堡变奏曲-钢琴.md)
 * [**产品经理**](post/产品经理/README.md)
   * [产品经理的日常](post/产品经理/产品经理的日常.md)
   * [中台的概念](post/产品经理/中台的概念.md)
