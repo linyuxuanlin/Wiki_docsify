@@ -65,7 +65,7 @@
   * [回归博客](post/效率/回归博客.md)
   * [定制 Sublime Text 3](post/效率/定制SublimeText3.md)
   * [定制 VS Code](post/效率/定制VSCode.md)
-* [**音乐**](wiki-power.com/#/post/音乐/哥德堡变奏曲-钢琴.md)
+* [**音乐**](https://wiki-power.com/#/post/音乐/哥德堡变奏曲-钢琴.md)
   * [哥德堡变奏曲-钢琴](post/音乐/哥德堡变奏曲-钢琴.md)
 * [**产品经理**](post/产品经理/README.md)
   * [产品经理的日常](post/产品经理/产品经理的日常.md)
