@@ -1,4 +1,4 @@
-# Git&GitHub
+# Git 学习笔记
 
 ---
 

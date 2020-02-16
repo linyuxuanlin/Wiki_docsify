@@ -53,6 +53,7 @@
 * **命令行**
   * [命令行基本操作](post/命令行/命令行基本操作.md)
 * **Git & GitHub**
+  * [Git 学习笔记](post/Git&GitHub/Git学习笔记.md)
 
 ---
 
