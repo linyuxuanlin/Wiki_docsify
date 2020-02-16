@@ -6,7 +6,7 @@
 ---
  
 
-* [**电路设计**](post/电路设计/README.md)
+* **电路设计**
   * [TinyDVR - 小巧身材，满载动力](post/电路设计/TinyDVR-小巧身材，满载动力.md)
   * [ZenDriver - 高性能的电机驱动](post/电路设计/ZenDriver-高性能的电机驱动.md)
   * [PCB 布线规范](post/电路设计/PCB布线规范.md)
@@ -24,40 +24,40 @@
   * [PCB 名片设计](post/电路设计/PCB名片设计.md)
   * [焊接比赛：培训及总结](post/电路设计/焊接比赛：培训及总结.md)
   * [电路设计资源共享](post/电路设计/电路设计资源共享.md)
-* [**无人机**](post/无人机/README.md)
+* **无人机**
   * [N3 参数调试](post/无人机/N3参数调试.md)
-* [**产品经理**](post/产品经理/README.md)
+* **产品经理**
   * [产品经理的日常](post/产品经理/产品经理的日常.md)
   * [中台的概念](post/产品经理/中台的概念.md)
   * [画图基础](post/产品经理/画图基础.md)
-* [**Arduino**](post/Arduino/README.md)
+* **Arduino**
   * [小车游华广 - 比赛](post/Arduino/小车游华广-比赛.md)
   * [麦昆小车 - 测评](post/Arduino/麦昆小车-测评.md)
   * [T-Clock 桌上小钟](post/Arduino/T-Clock桌上小钟.md)
   * [一个舵机的自我修养](post/Arduino/一个舵机的自我修养.md)
   * [麦轮小车](post/Arduino/麦轮小车.md)
-* [**STM32**](post/STM32/README.md)
+* **STM32**
   * [Keil MDK 配置指南](post/STM32/KeilMDK配置指南.md)
   * [Doxygen 注释规范](post/STM32/Doxygen注释规范.md)
   * [STM32 麦轮小车](post/STM32/STM32麦轮小车.md)
-* [**树莓派**](post/树莓派/README.md)
+* **树莓派**
   * [云打印服务器搭建](post/树莓派/云打印服务器搭建.md)
-* [**前端**](post/前端/README.md)
+* **前端**
   * [CSS 学习笔记](post/前端/CSS学习笔记.md)
   * [HTML 学习笔记](post/前端/HTML学习笔记.md)
   * [JavaScript 学习笔记](post/前端/JavaScript学习笔记.md)
   * [自适应网页设计](post/前端/自适应网页设计.md)
   * [Node.js 和 npm 的安装与卸载（MacOS）](post/前端/Node.js和npm的安装与卸载（MacOS）.md)
   * [前端开发 - 环境搭建](post/前端/前端开发-环境搭建.md)
-* [**微信小程序**](post/微信小程序/README.md)
+* **微信小程序**
   * [BookJourney - 二手书商城](post/微信小程序/BookJourney-二手书商城.md)
-* [**命令行**](post/命令行/README.md)
+* **命令行**
   * [命令行基本操作](post/命令行/命令行基本操作.md)
-* [**Git&GitHub**](post/Git&GitHub/README.md)
+* **Git & GitHub**
 
 ---
 
-* [**效率**](post/效率/README.md)
+* **效率**
   * [如何保存易逝的文字](post/效率/如何保存易逝的文字)
   * [文章排版规范](post/效率/文章排版规范.md)
   * [基于 docsify 搭建个人 Wiki](post/效率/基于docsify搭建个人Wiki.md)
@@ -70,19 +70,19 @@
   * [回归博客](post/效率/回归博客.md)
   * [定制 Sublime Text 3](post/效率/定制SublimeText3.md)
   * [定制 VS Code](post/效率/定制VSCode.md)
-* [**音乐**](post/音乐/README.md)
+* **音乐**
   * [哥德堡变奏曲](post/音乐/哥德堡变奏曲.md)
   * [不能说的秘密](post/音乐/不能说的秘密.md)
-* [**美食**](post/美食/README.md)
+* **美食**
   * [极简面包 - 烘培](post/美食/极简面包-烘培.md)
-* [**比赛经历**](post/比赛经历/README.md)
+* **比赛经历**
   * [THE Hack 2019](post/比赛经历/THEHack2019.md)
   * [Hack.init( )](post/比赛经历/Hack.init().md)
-* [**生活方式**](post/生活方式/README.md)
+* **生活方式**
   * [华广爬楼指北](post/生活方式/华广爬楼指北.md)
   * [读《黑客与画家》](post/生活方式/读《黑客与画家》.md)
   * [英语六级 - 备考](post/生活方式/英语六级-备考.md)
-* [**摘录**](post/摘录/README.md)
+* **摘录**
   * [Producter](post/摘录/Producter.md)
   * [且听风吟](post/摘录/且听风吟.md)
   * [爱因斯坦的梦](post/摘录/爱因斯坦的梦.md)
@@ -131,7 +131,7 @@
   * [追风筝的人](post/摘录/追风筝的人.md)
   * [三体](post/摘录/三体.md)
   * [反脆弱：从不确定性中获益](post/摘录/反脆弱：从不确定性中获益.md)
-* [**言论**](post/言论/README.md)
+* **言论**
   * [写作](post/言论/写作.md)
   * [财富](post/言论/财富.md)
   * [创业](post/言论/创业.md)
