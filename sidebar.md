@@ -26,6 +26,10 @@
   * [电路设计资源共享](post/电路设计/电路设计资源共享.md)
 * [**无人机**](post/无人机/README.md)
   * [N3 参数调试](post/无人机/N3参数调试.md)
+* [**产品经理**](post/产品经理/README.md)
+  * [产品经理的日常](post/产品经理/产品经理的日常.md)
+  * [中台的概念](post/产品经理/中台的概念.md)
+  * [画图基础](post/产品经理/画图基础.md)
 * [**Arduino**](post/Arduino/README.md)
   * [小车游华广 - 比赛](post/Arduino/小车游华广-比赛.md)
   * [麦昆小车 - 测评](post/Arduino/麦昆小车-测评.md)
@@ -49,6 +53,7 @@
   * [BookJourney - 二手书商城](post/微信小程序/BookJourney-二手书商城.md)
 * [**命令行**](post/命令行/README.md)
   * [命令行基本操作](post/命令行/命令行基本操作.md)
+* [**Git&GitHub**](post/Git&GitHub/README.md)
 
 ---
 
@@ -70,10 +75,6 @@
   * [不能说的秘密](post/音乐/不能说的秘密.md)
 * [**美食**](post/美食/README.md)
   * [极简面包 - 烘培](post/美食/极简面包-烘培.md)
-* [**产品经理**](post/产品经理/README.md)
-  * [产品经理的日常](post/产品经理/产品经理的日常.md)
-  * [中台的概念](post/产品经理/中台的概念.md)
-  * [画图基础](post/产品经理/画图基础.md)
 * [**比赛经历**](post/比赛经历/README.md)
   * [THE Hack 2019](post/比赛经历/THEHack2019.md)
   * [Hack.init( )](post/比赛经历/Hack.init().md)
