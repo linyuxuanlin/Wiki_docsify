@@ -76,3 +76,4 @@ $ git config --global user.email "email@example.com"
 * [Git 教程 - 廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600)
 * [实际项目中如何使用 Git 做分支管理](https://blog.csdn.net/ShuSheng0007/article/details/80791849)
 * [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+* [git-cheatsheet.pdf](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/doc/git-cheatsheet.pdf)
