@@ -68,12 +68,33 @@ $ git config --global user.email "email@example.com"
 
 ![](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/img/20200217202649.png)
 
+1. 创建并切换至新分支：`$ git switch -c branch_name`
+   * `-c` 代表创建并切换分支
+2. 查看当前分支：`git branch`
+3. 将新分支内容合并到 master 上：`$ git merge branch_name`
+   * 先切换到待合并的分支，再使用合并命令（示例：先切换到 master，再执行以上命令）
+   * 当 Git 无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成
+   * 解决冲突就是把 Git 合并失败的文件手动编辑为我们希望的内容，再提交
+4. 删除某个分支：`$ git branch -d dev`
+5. 禁用 Fast forward 合并分支：`$ git merge --no-ff -m "commit text" branch_name`
+   * 因为本次合并要创建一个新的 commit，所以加上 `-m` 参数，把 commit 描述写进去
+   * Fast forward 模式下，删除分支后，会丢掉分支信息
 
+## GitHub 漫游指南
 
+借助 GitHub 平台，我们可以发现丰富多彩的开源项目，并于全世界的开发者一起搭建开源世界。  
+当我们发现了一个优秀的开源项目，可以先 Fork 到自己的 GitHub 账户下（这样才拥有读写权限），然后再通过 SSH 克隆到本地进行开发。  
+开发完成后，可以在 GitHub 上发起一个 pull request, 如果原项目所有者觉得你的修改合适，那么将并入原有的开源项目中。
 
+### GitHub CLI
+GitHub CLI 是 GitHub 的命令行工具，将 pull requests, issues 等功能搬到命令行使用。  
+下载地址：[**cli.github.com**](https://cli.github.com/)  
+GitHub CLI 目前正处于 Beta 版本，值得一试。
 
 ## 参考与致谢
 * [Git 教程 - 廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600)
 * [实际项目中如何使用 Git 做分支管理](https://blog.csdn.net/ShuSheng0007/article/details/80791849)
 * [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 * [git-cheatsheet.pdf](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/doc/git-cheatsheet.pdf)
+* [Pro Git](https://git-scm.com/book/zh/v2)
+* [GitHub CLI - Manual](https://cli.github.com/manual/)
