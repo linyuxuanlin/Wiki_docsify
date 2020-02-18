@@ -40,7 +40,7 @@ $ git config --global user.email "email@example.com"
 适用于本地已有项目文件的情况。
 1. 创建 SSH Key：`$ ssh-keygen -t rsa -C "youremail@example.com"`
    * 更换为你的邮箱，一路回车即可
-2. 点开 GitHub [个人设置 - SSH and GPG keys](https://github.com/settings/keys)，添加新的 SSH key
+2. 点开 GitHub [**个人设置 - SSH and GPG keys**](https://github.com/settings/keys)，添加新的 SSH key
    * Title 任意，Key 为 `id_rsa.pub` 文件中的内容
 3. 在 GitHub 新建仓库，不要勾选 `Initialize this repository with a README`
    * 如果不小心初始化了仓库，则要先 pull 下来：`$ git pull origin master`
