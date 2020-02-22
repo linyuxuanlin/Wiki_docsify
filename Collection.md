@@ -8,6 +8,7 @@
 * [**DIY Digital Wristwatch**](https://blog.zakkemble.net/diy-digital-wristwatch/)：基于 Arduino 的智能手表，电路设计 / 软件设计很强
   * [**NWatch 移植**](https://soysauce007.github.io/nwatch/2020/02/13/NWatch.html)：移植至 STM32 的版本
 * [**ThingPulse/esp8266-weather-station**](https://github.com/ThingPulse/esp8266-weather-station)：基于 ESP8266 的气象站
+* [**A Beginner's Guide to the ESP8266**](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html)：很详细的 ESP8266 教程
 
 ### 项目集合 / 个人主页
 
@@ -23,6 +24,8 @@
 ### 学习网站
 
 * [**摩尔吧**](https://www.moore8.com/)
+  * [**PCB 设计四部曲**](https://www.moore8.com/series/pcb)
+  * [**电源设计系统学习的进阶之路**](https://www.moore8.com/series/package/power)
 
 ### 书籍及文档
 
