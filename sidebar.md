@@ -1,6 +1,6 @@
 * [Introduction](README.md)
 * [Task board](https://trello.com/b/0QeKClyr)
-* [Collection](https://www.yuque.com/collection-power)
+* [Collection](Collection.md)
 * [Tools](Tools.md)
 
 ---
