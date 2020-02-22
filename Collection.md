@@ -51,9 +51,9 @@
 * [**TI 参考设计**](http://www.ti.com.cn/cn/reference-designs/index.html)
 * [**实用工具大全**](https://tool.520101.com/dianlu/diangonglv/)
 * [**EDA365 在线工具**](https://www.eda365.com/eda365libs/edacalc/)
-* [**3DCONTENTCENTRAL**](https://www.3dcontentcentral.cn/)
-* [**CircuitJS**](http://www.falstad.com/circuit/circuitjs.html)：电路在线仿真工具
+* [**CircuitJS**](http://www.falstad.com/circuit/circuitjs.html)：很强的电路在线仿真工具
   * [**Examples**](http://www.falstad.com/circuit/e-index.html)：典型电路
+* [**3DCONTENTCENTRAL**](https://www.3dcontentcentral.cn/)：很全的元器件封装 3D 模型
 
 ### 开源硬件
 * [**野火所有产品的封装库**](http://products.embedfire.com/zh_CN/latest/pcb/ebf_pcblib.html)
