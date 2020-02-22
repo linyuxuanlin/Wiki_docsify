@@ -30,20 +30,8 @@
 * [**《工程师教你最简单的读懂电路图的方法》**](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/doc/《工程师教你最简单的读懂电路图的方法》.pdf)
 * [**常用电子元器件**](https://www.eetree.cn/wiki/%E5%B8%B8%E7%94%A8%E7%94%B5%E5%AD%90%E5%85%83%E5%99%A8%E4%BB%B6)
 * [**电子工程师的资源网站大全**](https://www.eetree.cn/wiki/)
-* [**凡亿原创电子技术干货文章**](https://github.com/linyuxuanlin/Wiki-media/tree/master/doc/%E5%87%A1%E4%BA%BF%E5%8E%9F%E5%88%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7%E6%96%87%E7%AB%A0)
-  * 3 种组态放大器的比较
-  * 4 个 NMOS 组成的全桥驱动电路
-  * EMC 电磁兼容那些事
-  * 串联并联反馈如何判断
-  * 低通滤波的原理和运用
-  * 单片机的复位电路
-  * 电压电流反馈如何判断
-  * 电平转换电路
-  * 过流自锁电路
-  * 运放组成的反馈电路分析
-  * 采样电路的运用和设计
-  * 高通滤波的原理和运用
-  * 高速串行总线走线注意些什么
+* [**凡亿原创电子技术干货文章**](https://github.com/linyuxuanlin/Wiki-media/tree/master/doc/%E5%87%A1%E4%BA%BF%E5%8E%9F%E5%88%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7%E6%96%87%E7%AB%A0)：包含 `单片机的复位电路` `采样电路的运用和设计` 等 13 篇技术文章
+
 
 
 ### 在线工具
