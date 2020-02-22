@@ -30,7 +30,7 @@
 * [**Adafruit_SSD1306.h**](https://github.com/adafruit/Adafruit_SSD1306)
 
 ### 最终例程
-[**T-Clock/Software/Codes/Weather_Clock_OLED_I2C**](https://github.com/linyuxuanlin/T-Clock/tree/master/Software/Codes/Weather_Clock_OLED_I2C)
+* [**T-Clock/Software/Codes/Weather_Clock_OLED_I2C**](https://github.com/linyuxuanlin/T-Clock/tree/master/Software/Codes/Weather_Clock_OLED_I2C)
 
 注：需将 WiFi 名称及密码、城市、私钥改为你自己的。  
 如果编译出现错误，且错误信息定位在 `#error("Height incorrect, please fix Adafruit_SSD1306.h!");`，则需打开库文件 `Adafruit_SSD1306.h`，将 `#define SSD1306_128_32` 改为 `#define SSD1306_128_64`。
