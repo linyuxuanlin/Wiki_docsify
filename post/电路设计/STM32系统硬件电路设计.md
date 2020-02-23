@@ -9,7 +9,10 @@
 
 ## 电源
 
-STM32 运行于 2.0V-3.6V 
+STM32 需运行在 2.0V-3.6V 的电压环境下（VDD）。当 VDD 无供电时，实时时钟（RTC）与备份寄存器（Backup regosters）可从 VBAT 取电。  
+需要注意的是，在电路设计时，VDDA/VSSA 需分别与 VDD/VSS 连接。
+
+
 
 
 
