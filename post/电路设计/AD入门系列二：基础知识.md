@@ -22,7 +22,7 @@ Altium Designer 系列教程
 * [**JLCSMT\_LIB**](https://gitee.com/JLC_SMT/JLCSMT_LIB)：嘉立创提供的标准集成库，包含嘉立创可以 SMT 贴片的所有元件，直接用这个集成库，打板 / SMT 的时候兼容性会比较好。
 * [**Hare\_Library**](https://www.jianguoyun.com/p/DX2d84cQ-OOjBxj0kPwB#dir=%2FHare_Library::mode=0)：彬哥整理的原理图库 / 封装库，涵盖队内硬件所需的大部分元器件。
 
-如何安装库文件：参考 [**Altium Designer 安装库文件**](unlist/AltiumDesigner安装库文件.md)
+如何安装库文件：参考 [**Altium Designer 安装库文件**](post/unlist/AltiumDesigner安装库文件.md)
 
 
 ### 不常见的元器件
@@ -37,7 +37,7 @@ AD 插件：
 * [**SnapEDA**](https://www.snapeda.com/)
 * [**Ultra Librarian**](https://www.ultralibrarian.com/)
 
-SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](unlist/从SnapEDA导入库文件.md)
+SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](post/unlist/从SnapEDA导入库文件.md)
 
 
 

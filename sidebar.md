@@ -30,6 +30,8 @@
   * [产品经理的日常](post/产品经理/产品经理的日常.md)
   * [中台的概念](post/产品经理/中台的概念.md)
   * [画图基础](post/产品经理/画图基础.md)
+* **活动策划**
+  * [RM 校内赛 - 前期策划](post/活动策划/RM校内赛-前期策划.md)
 * **Arduino**
   * [T-Clock 桌上小钟](post/Arduino/T-Clock桌上小钟.md)
   * [小车游华广 - 比赛](post/Arduino/小车游华广-比赛.md)
