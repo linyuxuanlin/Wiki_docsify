@@ -39,27 +39,27 @@ RSS 的对立面是算法推荐，像微信公众号、知乎、微博、今日�
 
 ### 1. 获取内容的 RSS 源
 
-这儿分两类网站：有 RSS，无 RSS 如何判断一个网站有无 RSS，首先在网站里寻找这个标识：
+以 Inoreader 为例，最简单的方法是，拷贝博客的地址，并粘贴进 Inoreader 的搜索框，一般可以直接订阅。
+
+判断一个网站是否有 RSS，如果打开就看到这个标识：
 
 ![](https://picgo-1253965369.cos.ap-guangzhou.myqcloud.com/rss.png)
 
-如果有的话，可以直接拷贝链接订阅。 没有标识呢？也可能是有 RSS 的，不过藏得比较深。
+则可以直接点击此图标，并直接订阅 RSS 链接。  
+如果没有标识呢？也可能是有 RSS 的，不过藏得比较深。  
 
-简单的方法是：直接在主域名后加 `/feed` ， `/rss` 或 `/atom.xml` 比如我的博客：[yxrct.com](https://yxrct.com) 在后面加 `/feed` 变为 [yxrct.com/feed](https://yxrct.com/feed) ，如果能刷出来一个`xml`页面，那么只需添加这个链接到 RSS 阅读器中，即可订阅。 但一些网站并不用普通的后缀，这时候我们需要用到 RSS+ 浏览器插件。
-
-RSS+ 浏览器插件：
-
+这时候我们可以用一款叫 RSS+ 的浏览器插件：
 * 先安装 [油猴插件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) ，这里需要科学上网。
 * 再安装 [RSS+ 脚本](https://greasyfork.org/zh-CN/scripts/373252-rss-show-site-all-rss)
 * 此时，如果网站有 RSS，可在右下角小圆圈里发现。
 
-对无 RSS 的网站，需要自己制作 RSS，这里推荐几个工具：
+而对无 RSS 的网站，可以自己制作 RSS，这里推荐几个工具：
 
 * [feed43](http://feed43.com/)
 * [RSSHub](https://docs.rsshub.app/#%E5%BE%AE%E5%8D%9A)
 * [FeedOcean](https://feedocean.com/?lang=zh-CN)
 
-以上的工具，不仅可以订阅无 RSS 的博客，还能直接订阅知乎专栏、公众号、微博、贴吧、即刻等。具体方法参见文档。
+以上的工具，不仅可以订阅无 RSS 的博客，还能直接订阅知乎专栏、公众号、微博、贴吧等。具体方法参见文档。
 
 ### 2. 选择一个 RSS 阅读器
 
@@ -69,7 +69,7 @@ RSS+ 浏览器插件：
 
 ## 订阅一些有意思的源
 
-RSS 并不适合订阅新闻类网站，刷新太快、内容繁琐反而导致阅读体验不佳。所以 RSS 更适合订阅**高质量博客**之类的网站。订阅源并不是越多越好，应该小而精。过多的订阅源会引起「信息过载」，你会发现自己每天都收到数以百计的新资讯，却无暇阅读。
+注：RSS 并不适合订阅新闻类网站，刷新太快、内容繁琐反而导致阅读体验不佳。所以 RSS 更适合订阅**高质量博客**之类的网站。订阅源并不是越多越好，应该小而精。过多的订阅源会引起「信息过载」，你会发现自己每天都收到数以百计的新资讯，却无暇阅读。
 
 我导出了自己的订阅源，可以参考一下： [**我的订阅**](https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki-media/doc/Blogs.opml)  
 你可以在 Inoreader 或其他 RSS 阅读器导入 `.opml` 文件。
